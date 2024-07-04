@@ -6,8 +6,8 @@ To manage dependencies, we are using a virtual environment. I have created it na
 * Use the requirements.txt file every time you set up the project.
 ` `
 1. Activate the venv by typing the following commands into the terminal (don't include quotations)
-    Windows: ".\venv\Scripts\activate"
-    macOS and Linux: "source venv/bin/activate"
+    * Windows: ".\venv\Scripts\activate"
+    * macOS and Linux: "source venv/bin/activate"
 
     Ensure the venv is activated whenever you are running commands on the terminal
 
