@@ -2,6 +2,8 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,10 +15,12 @@
             margin: 0;
             padding: 20px;
         }
+
         h1 {
             text-align: center;
             color: #333;
         }
+
         .result-container {
             max-width: 400px;
             margin: 20px auto;
@@ -25,14 +29,17 @@
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+
         p {
             text-align: center;
             font-size: 18px;
             color: #333;
         }
+
         strong {
             font-weight: bold;
         }
+
         a {
             display: block;
             text-align: center;
@@ -40,16 +47,62 @@
             color: #4CAF50;
             text-decoration: none;
         }
+
         a:hover {
             color: #45a049;
         }
     </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        .container {
+            text-align: center;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .medal {
+            margin-right: 10px;
+        }
+
+        .gold {
+            color: gold;
+        }
+
+        .silver {
+            color: silver;
+        }
+
+        .bronze {
+            color: #cd7f32;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+    </style>
 </head>
+
 <body>
     <div class="result-container">
-        <h1>Recommended Crop</h1>
-        <p>The recommended crop for your soil conditions is: <strong>{{ crop }}</strong></p>
+        <h1>Top Recommended Crops:</h1>
+
+        <ul>
+            <li><i class="fas fa-medal medal gold"></i>1. {{ crop[0] }}</li>
+            <li><i class="fas fa-medal medal silver"></i>2. {{ crop[1] }}</li>
+            <li><i class="fas fa-medal medal bronze"></i>3. {{ crop[2] }}</li>
+        </ul>
     </div>
     <a href="/" class="back-link">Back to Home</a>
 </body>
+
 </html>
