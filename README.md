@@ -24,5 +24,9 @@ To manage dependencies, we are using a virtual environment. I have created it na
 3. Use the requriements.txt file when setting up the project
   *  Simply run "pip install -r requirements.txt" to install all of the appropriate packages
 
+Troubleshooting: If running into errors with dependencies, try the following command in your terminal with the virtual environment (venv) activated:
+
+pip install --upgrade Flask Werkzeug numpy scikit-learn matplotlib
+
 
 
