@@ -1,4 +1,4 @@
-# MCSI436_S24_Group22
+
 
 To manage dependencies, we are using a virtual environment. I have created it named "venv". 
 * Activate the venv every time you open a terminal
