@@ -1,4 +1,4 @@
-
+This project provides farmers with an intuitive visual tool to see which crop is recommended to plant given certain soil conditions using an machine learning model. 
 
 To manage dependencies, we are using a virtual environment. I have created it named "venv". 
 * Activate the venv every time you open a terminal
